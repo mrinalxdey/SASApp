@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingVertical="16dp"
+    android:paddingHorizontal="32dp"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hellotxt"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Your Details."
+            android:textStyle="bold"
+            android:textSize="34sp"
+            android:textColor="@color/light_coral"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/credlayout"
+        android:layout_below="@+id/hellotxt"
+        android:layout_marginVertical="32dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:id="@+id/loginpfp"
+            android:layout_marginVertical="32dp"
+            android:src="@drawable/sas_icon"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userName"
+            android:hint="Enter Name"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@drawable/input_bg"
+            android:padding="16dp"
+            android:layout_marginTop="12dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userDOB"
+            android:hint="Enter Date of Birth"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:background="@drawable/input_bg"
+            android:padding="16dp"
+            android:layout_marginTop="12dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userDisability"
+            android:hint="Enter Disability"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:background="@drawable/input_bg"
+            android:padding="16dp"
+            android:layout_marginTop="12dp"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Submit"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/light_coral"
+            android:textColor="@color/white"
+            android:paddingVertical="12dp"
+            android:textSize="16sp"/>
+
+        <ProgressBar
+            android:layout_width="24dp"
+            android:layout_height="64dp"
+            android:id="@+id/progressbar"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

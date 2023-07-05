@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "242510141785",
+    "project_id": "sas-app-79771",
+    "storage_bucket": "sas-app-79771.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242510141785:android:9cf5fee42edaa4e5641448",
+        "android_client_info": {
+          "package_name": "com.example.sasapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242510141785-q9e6fjp404m0mdnap7noo660fp3bmj7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ-jgZ_sdWOkEVvAM7SqFl_VxonVItDnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242510141785-q9e6fjp404m0mdnap7noo660fp3bmj7l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
