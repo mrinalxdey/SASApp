@@ -72,6 +72,20 @@ The application was tested using:
 * Database data retrieval
 * ID card generation and updates
 
+## Images
+
+### Splash Screen
+![Login Screen](images/register.png)
+
+### Login Screen
+![Login Screen](images/home_withoutdata.png)
+
+### Home Screen
+![Home Screen](images/home_withoutdata.png)
+
+### ID Card
+![ID Card](images/home_withoutdata.png)
+
 ## Future Improvements
 
 Planned enhancements include:
