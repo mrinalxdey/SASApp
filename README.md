@@ -75,16 +75,16 @@ The application was tested using:
 ## Images
 
 ### Splash Screen
-![Login Screen](images/register.png)
+<img src="images/splash" width="300"/>
 
 ### Login Screen
-![Login Screen](images/home_withoutdata.png)
+<img src="images/register" width="300"/>
 
 ### Home Screen
-![Home Screen](images/home_withoutdata.png)
+<img src="images/home_withoutdata.png" width="300"/>
 
 ### ID Card
-![ID Card](images/home_withoutdata.png)
+<img src="images/home_afterdata.png" width="300"/>
 
 ## Future Improvements
 
