@@ -75,10 +75,10 @@ The application was tested using:
 ## Images
 
 ### Splash Screen
-<img src="images/splash" width="300"/>
+<img src="images/splash.png" width="300"/>
 
 ### Login Screen
-<img src="images/register" width="300"/>
+<img src="images/register.png" width="300"/>
 
 ### Home Screen
 <img src="images/home_withoutdata.png" width="300"/>
